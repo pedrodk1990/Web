@@ -1,0 +1,48 @@
+body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffeb3b;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .calculator {
+            background: url(https://cdnx.jumpseller.com/arteclick/image/25884575/resize/1200/1200?1658759171);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .display {
+            height: 60px;
+            border: 2px solid #f44336;
+            border-radius: 10px;
+            text-align: right;
+            font-size: 2rem;
+            padding: 10px;
+            margin-bottom: 10px;
+	    color: yellow;
+        }
+
+        button {
+            width: 60px;
+            height: 60px;
+            border: none;
+            border-radius: 10px;
+            margin: 5px;
+            font-size: 1.5rem;
+            color: #fff;
+            cursor: pointer;
+            opacity: 0.7;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            opacity: 1;
+        }
+
+        .btn-number { background-color: #fff;color: #4caf50; }
+        .btn-operation { background-color: #2196f3; }
+        .btn-equal { background-color: #f44336; }
+        .btn-clear { background-color: #ff9800; }

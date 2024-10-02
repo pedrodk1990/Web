@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h1>To-Do List</h1>
+    <form id="task-form" class="mb-4">
+        <div class="form-group">
+            <input type="text" id="task-input" class="form-control" placeholder="Nova tarefa" required>
+        </div>
+        <div class="form-group">
+            <select id="category-input" class="form-control">
+                <option value="">Selecione uma categoria</option>
+                <option value="Pessoal">Pessoal</option>
+                <option value="Trabalho">Trabalho</option>
+                <option value="Estudos">Estudos</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Adicionar Tarefa</button>
+    </form>
+    
+    <input type="text" id="search-input" class="form-control mb-4" placeholder="Buscar tarefa...">
+    
+    <ul id="task-list" class="list-group"></ul>
+</div>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
